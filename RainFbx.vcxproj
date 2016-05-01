@@ -75,9 +75,9 @@
     <LinkIncremental>true</LinkIncremental>
     <TargetName>RainFbx</TargetName>
     <OutDir>C:\Program Files\Rainmeter\Plugins\</OutDir>
-    <IntDir>x32\$(Configuration)\</IntDir>
+    <IntDir>x86\$(Configuration)\</IntDir>
     <IncludePath>include;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
-    <LibraryPath>lib\x32;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</LibraryPath>
+    <LibraryPath>lib\x86;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -91,9 +91,9 @@
     <LinkIncremental>false</LinkIncremental>
     <TargetName>RainFbx</TargetName>
     <OutDir>C:\Program Files\Rainmeter\Plugins\</OutDir>
-    <IntDir>x32\$(Configuration)\</IntDir>
+    <IntDir>x86\$(Configuration)\</IntDir>
     <IncludePath>include;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
-    <LibraryPath>lib\x32;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</LibraryPath>
+    <LibraryPath>lib\x86;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
