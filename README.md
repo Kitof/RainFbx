@@ -70,19 +70,19 @@ _Obligatoires_
 Les variables *Measure* et *Plugin* sont obligatoires, et doivent être fixées aux valeurs exemple pour indiquer quel plugin utiliser.
 
 #####FbxAPIConf#####
-_Obligatoires, pas de valeur par défaut_
+_Obligatoire, pas de valeur par défaut_
 
 Cette variable doit indiquer vers quelle section "Configuration de la Freebox" cette section dépend.
 
 #####MeasureDb#####
-_Obligatoires, pas de valeur par défaut_
+_Obligatoire, pas de valeur par défaut_
 
 Cette variable indique au sein de quelle _database_ la mesure appartient. La liste des _databases_ est disponible sur le site de [Freebox API](http://dev.freebox.fr/sdk/os/rrd/).
 
 La valeur _composite_ a été ajoutée au sein de ce plugin pour regrouper les mesures personalisées.
 
 #####MeasureField#####
-_Obligatoires, pas de valeur par défaut_
+_Obligatoire, pas de valeur par défaut_
 
 Cette variable indique le nom de la _mesure_. La liste des _mesures_ est disponible sur le site de [Freebox API](http://dev.freebox.fr/sdk/os/rrd/).
 
