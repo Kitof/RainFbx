@@ -4,16 +4,18 @@ RainFbx est un plugin pour [Rainmeter](https://www.rainmeter.net/), utilisant de
 
 ## Installation
 
-Téléchagez la release correspondante à votre version de Rainmeter (32 ou 64 bits), et copiez le fichier dll dans le repertoire "Plugins\" de votre installation Rainmeter (par défaut: C:\Program Files\Rainmeter\Plugins).
+Téléchargez la [dernière release](https://github.com/Kitof/RainFbx/releases) correspondante à votre version de Rainmeter (32 ou 64 bits), et copiez le fichier dll dans le repertoire "Plugins\" de votre installation Rainmeter (par défaut: C:\Program Files\Rainmeter\Plugins).
 
 ## Autorisation
+
+Lors du premier lancement, il est conseillé d'utiliser le skin _"illustro - Freebox Status & Bandwidth"_ pour faciliter l'étape d'autorisation.
 
 Le plugin nécessite d'être autorisé via la facade de la Freebox lors du premier lancement.
 L'utilisation des mesures RRD nécessite également l'ajout des permissions spécifiques au travers de l'interface FreeboxOS via _"Paramètres de la Freebox > Gestion des accès > Applications > Editer > Modifications des réglages de la Freebox"_
 
-## Configuration
+## Configuration avancée
 
-Pour récupérer une mesure de la Freebox, vous pouvez vous inspirez des skins fournis en exemple, ou lire le détails des variables disponibles ci-dessous.
+Pour récupérer d'autres mesures de la Freebox et/ou pour intégrer d'autres skins, vous pouvez vous inspirez des skins fournis en exemple, ou lire le détails des variables disponibles ci-dessous.
 
 La configuration du plugin nécessite au moins 2 sections au sein de votre fichier de configuration :
 
@@ -91,4 +93,4 @@ Les mesures suivantes personnalisées ont été ajoutées à la _database "compo
 
 ## Compilation ##
 
-Le projet se compile en l'état sous Visual Studio 2015. Seule la librairie _C++ REST SDK_ doit être compilée statiquement à partir des sources en suivante le guide [How to statically link the C++ REST SDK (Casablanca)](https://katyscode.wordpress.com/2014/04/01/how-to-statically-link-the-c-rest-sdk-casablanca/) et placée dans le repertoire _lib/_ correspondant.
+Le projet se compile en l'état sous Visual Studio 2015. Seule la librairie _C++ REST SDK_ doit être compilée statiquement (car trop lourde) à partir des sources en suivante le guide [How to statically link the C++ REST SDK (Casablanca)](https://katyscode.wordpress.com/2014/04/01/how-to-statically-link-the-c-rest-sdk-casablanca/) et placée dans le repertoire _lib/_ correspondant.
